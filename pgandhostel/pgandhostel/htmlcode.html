@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PG and Hostel Listings</title>
+    <link rel="stylesheet" href="csscode.css">
+</head>
+<body>
+
+<section>
+    <input type="checkbox" id="pgToggle" class="toggle" />
+    <label for="pgToggle" class="toggle-label">PG Names</label>
+    <div id="pgList" class="toggle-content">
+        <!-- Girls PG Section -->
+        <input type="checkbox" id="girlsPgToggle" class="toggle" />
+        <label for="girlsPgToggle" class="toggle-label">Girls PG</label>
+        <div id="girlsPgList" class="toggle-content">
+            <!-- Girls PG Listings -->
+            <ul>
+                <li>
+                    <h2>Pendant Home1</h2>
+                    <div class="slideshow-container">
+                        <!-- Image slides -->
+                        <div class="slides">
+                            <img src="girlpg1.jpg" alt="Girl PG 1" class="slide-img">
+                        </div>
+                        <!-- Add more slides here -->
+
+                        <!-- Navigation dots -->
+                        <div class="dots-container"></div>
+                    </div>
+                    <h2>Contact :</h2>
+                    <h3>Mobile no : 8800445521 / 9319808089</h3>
+                    <address>Roopnagr Kamlanagar</address>
+                </li>
+                <!-- Add more PG listings here -->
+            </ul>
+        </div>
+        <!-- Boys PG Section -->
+        <input type="checkbox" id="boysPgToggle" class="toggle" />
+        <label for="boysPgToggle" class="toggle-label">Boys PG</label>
+        <div id="boysPgList" class="toggle-content">
+            <!-- Boys PG Listings -->
+            <ul>
+                <li>
+                    <h2>Pendant Home1</h2>
+                    <div class="slideshow-container">
+                        <!-- Video slides -->
+                        <div class="slides">
+                            <video width="100%" controls>
+                                <source src="video1.mp4" type="video/mp4">
+                                Your browser does not support HTML video.
+                            </video>
+                        </div>
+                        <!-- Add more slides here -->
+
+                        <!-- Navigation dots -->
+                        <div class="dots-container"></div>
+                    </div>
+                    <h2>Contact :</h2>
+                    <h3>Mobile no : 8800445521 / 9319808089</h3>
+                    <address>Roopnagr Kamlanagar</address>
+                </li>
+                <!-- Add more PG listings here -->
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section>
+    <input type="checkbox" id="hostelToggle" class="toggle" />
+    <label for="hostelToggle" class="toggle-label">Hostel Names</label>
+    <ul id="hostelList" class="toggle-content">
+        <li>Hostel Name 1</li>
+        <li>Hostel Name 2</li>
+        <li>Hostel Name 3</li>
+        <li>Hostel Name 4</li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2024 PG and Hostel Listings</p>
+</footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>

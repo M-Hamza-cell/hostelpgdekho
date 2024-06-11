@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PG and Hostel Listings</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>PG and Hostel Listings</h1>
+    </header>
+    <main>
+      <section>
+        <input type="checkbox" id="pgToggle" class="toggle" />
+        <label for="pgToggle" class="toggle-label">PG Names</label>
+        <div id="pgList" class="toggle-content">
+          <!-- Girls PG Section -->
+          <input type="checkbox" id="girlsPgToggle" class="toggle" />
+          <label for="girlsPgToggle" class="toggle-label">Girls PG</label>
+          <div id="girlsPgList" class="toggle-content">
+            <ul>
+              <li>
+                <h2>Pendant Home1</h2>
+                <center>
+                  <div class="slideshow-container" id="girlsPg1-slides">
+                    <div class="slide">
+                      <img src="girlpg1.jpg" style="width: 70%" />
+                    </div>
+                    <div class="slide">
+                      <img src="girlspg2.jpg" style="width: 70%" />
+                    </div>
+                    <div class="slide">
+                      <img src="girlspg3.jpg" style="width: 70%" />
+                    </div>
+                    <div style="text-align: center">
+                      <span
+                        class="dot"
+                        onclick="currentSlide(1, 'girlsPg1-slides')"
+                      ></span>
+                      <span
+                        class="dot"
+                        onclick="currentSlide(2, 'girlsPg1-slides')"
+                      ></span>
+                      <span
+                        class="dot"
+                        onclick="currentSlide(3, 'girlsPg1-slides')"
+                      ></span>
+                    </div>
+                  </div>
+                  <h2>Contact:</h2>
+                  <h3>Mobile no: 8800445521 / 9319808089</h3>
+                  <address>Roopnagar Kamlanagar</address>
+                </center>
+              </li>
+              <li>
+                <h2>Pendant Home2</h2>
+                <center>
+                  <div class="slideshow-container" id="girlsPg2-slides">
+                    <div class="slide">
+                      <img src="girlspg8.jpg" style="width: 70%" />
+                    </div>
+                    <div class="slide">
+                      <img src="girlspg6.jpg" style="width: 70%" />
+                    </div>
+                    <div class="slide">
+                      <img src="girlspg5.jpg" style="width: 70%" />
+                    </div>
+                    <div class="slide">
+                      <img src="girlspg4.jpg" style="width: 70%" />
+                    </div>
+                   
+                    <div style="text-align: center">
+                      <span
+                        class="dot"
+                        onclick="currentSlide(1, 'girlsPg2-slides')"
+                      ></span>
+                      <span
+                        class="dot"
+                        onclick="currentSlide(2, 'girlsPg2-slides')"
+                      ></span>
+                      <span
+                        class="dot"
+                        onclick="currentSlide(3, 'girlsPg2-slides')"
+                      ></span>
+                      <span
+                        class="dot"
+                        onclick="currentSlide(4, 'girlsPg2-slides')"
+                      ></span>
+                   
+                    </div>
+                  </div>
+                  <h2>Contact:</h2>
+                  <h3>Mobile no: 8800445521 / 9319808089</h3>
+                  <address>Roopnagar Kamlanagar</address>
+                </center>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Boys PG Section -->
+          <input type="checkbox" id="boysPgToggle" class="toggle" />
+          <label for="boysPgToggle" class="toggle-label">Boys PG</label>
+          <div id="boysPgList" class="toggle-content">
+            <ul>
+              <li>
+                <h2>Pendant Home1</h2>
+                <center>
+                  <div class="slideshow-container" id="boysPg1-slides">
+                    <div class="slide">
+                      <img src="boyspg1.jpg" style="width: 70%" />
+                    </div>
+                    <div class="slide">
+                      <img src="boyspg2.jpg" style="width: 70%" />
+                    </div>
+                    <div class="slide">
+                      <video width="70%" controls>
+                        <source src="video4.mp4" type="video/mp4" />
+                        Your browser does not support HTML video.
+                      </video>
+                    </div>
+                    <div style="text-align: center">
+                      <span
+                        class="dot"
+                        onclick="currentSlide(1, 'boysPg1-slides')"
+                      ></span>
+                      <span
+                        class="dot"
+                        onclick="currentSlide(2, 'boysPg1-slides')"
+                      ></span>
+                      <span
+                        class="dot"
+                        onclick="currentSlide(3, 'boysPg1-slides')"
+                      ></span>
+                    </div>
+                  </div>
+                  <h2>Contact:</h2>
+                  <h3>Mobile no: 8800445521 / 9319808089</h3>
+                  <address>Roopnagar Kamlanagar</address>
+                </center>
+              </li>
+              <li>
+                <h2>Pendant Home2</h2>
+                <center>
+                  <div class="slideshow-container" id="boysPg2-slides">
+                    <div class="slide">
+                      <video width="70%" controls>
+                        <source src="video1.mp4" type="video/mp4" />
+                        Your browser does not support HTML video.
+                      </video>
+                    </div>
+                    <div class="slide">
+                      <video width="70%" controls>
+                        <source src="video2.mp4" type="video/mp4" />
+                        Your browser does not support HTML video.
+                      </video>
+                    </div>
+                    <div class="slide">
+                      <video width="70%" controls>
+                        <source src="video3.mp4" type="video/mp4" />
+                        Your browser does not support HTML video.
+                      </video>
+                    </div>
+                    <div style="text-align: center">
+                      <span
+                        class="dot"
+                        onclick="currentSlide(1, 'boysPg2-slides')"
+                      ></span>
+                      <span
+                        class="dot"
+                        onclick="currentSlide(2, 'boysPg2-slides')"
+                      ></span>
+                      <span
+                        class="dot"
+                        onclick="currentSlide(3, 'boysPg2-slides')"
+                      ></span>
+                     
+                    </div>
+                  </div>
+                  <h2>Contact:</h2>
+                  <h3>Mobile no: 8800445521 / 9319808089</h3>
+                  <address>Kamlanagar 161 block E</address>
+                </center>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <input type="checkbox" id="hostelToggle" class="toggle" />
+      <label for="hostelToggle" class="toggle-label">Hostel Names</label>
+      <ul id="hostelList" class="toggle-content">
+        <li>Hostel Name 1</li>
+        <li>Hostel Name 2</li>
+        <li>Hostel Name 3</li>
+        <li>Hostel Name 4</li>
+      </ul>
+    </main>
+    <footer>
+      <p>&copy; 2024 PG and Hostel Listings</p>
+    </footer>
+    <script src="java.js"></script>
+
+    <script>
+      function showSlides(slideIndex, containerId) {
+        var i;
+        var slides = document.querySelectorAll(`#${containerId} .slide`);
+        var dots = document.querySelectorAll(`#${containerId} .dot`);
+        if (slideIndex > slides.length) {
+          slideIndex = 1;
+        }
+        if (slideIndex < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+
+      function currentSlide(n, containerId) {
+        showSlides(n, containerId);
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const slideshowContainers = document.querySelectorAll(
+          ".slideshow-container"
+        );
+        slideshowContainers.forEach((container) => {
+          showSlides(1, container.id);
+        });
+      });
+    </script>
+  </body>
+</html>
